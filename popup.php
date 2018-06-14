@@ -1,5 +1,4 @@
 <?php
-
 /**
  *  Plugin Name:    Modal Popup Plugin
  *  Plugin URI:     https://harloff.com
@@ -11,10 +10,10 @@
  */
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
-add_action( 'wp_enqueue_scripts', 'modal-popup' );
+add_action( 'wp_enqueue_scripts', 'feedback_popup' );
 
-function harloff_popup() {
-    wp_enqueue_script( 'modal-popup-js', plugins_url( '/js/modal-popup.js', __FILE__) );
+function feedback_popup() {
+    wp_enqueue_script( 'feedback_popup', plugins_url( '/js/feedback_popup.js', __FILE__) );
 }
     
 ?>
