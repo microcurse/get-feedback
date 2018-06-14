@@ -11,6 +11,10 @@
  */
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
+add_action( 'wp_enqueue_scripts', 'modal-popup' );
 
+function harloff_popup() {
+    wp_enqueue_script( 'modal-popup-js', plugins_url( '/js/modal-popup.js', __FILE__) );
+}
     
 ?>
