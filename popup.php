@@ -13,7 +13,10 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 add_action( 'wp_enqueue_scripts', 'feedback_popup' );
 
 function feedback_popup() {
-    wp_enqueue_script( 'feedback_popup', plugins_url( '/js/feedback_popup.js', __FILE__) );
+    wp_register_script( 'feedback_popup', plugins_url( '/popup/js/feedback_popup.js'), array( 'jquery' ) );
+    wp_register_script( 'fancybox', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js' );
+    
+    wp_enqueue_script( 'feedback_popup', 'fancybox' );
 }
     
 ?>

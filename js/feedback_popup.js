@@ -1,3 +1,3 @@
-function feedback_popup() {
-    alert("Hello World!");
-}
+jQuery(document).ready(function($) {
+    alert("Is this thing on yet?");
+})
