@@ -3,20 +3,23 @@ function openFancyBox() {
 }
 
 function popUpHtml() {
-    document.write('<div class="pop-container">');
-    document.write('<div class="pop-content">');
-    document.write('This is a test of the content');
-    document.write('</div>');
-    document.write('</div>');
+    alert('Pop Up HTML is now working.');
+    // document.write('<div class="pop-container">');
+    // document.write('<div class="pop-content">');
+    // document.write('This is a test of the content');
+    // document.write('</div>');
+    // document.write('</div>');
 }
 
 jQuery(document).ready(function($) {
-    var visited = $.cookie('visited');
-    if (visited == 'yes') {
-        return false;
-    } else {
-        openFancyBox();
-    }
-    $.cookie('visited', 'yes', {expires: 7});
-    $('#feedback-box').fancybox();
+    alert('It worked');
+
+    // var visited = $.cookie('visited');
+    // if (visited == 'yes') {
+    //     return false;
+    // } else {
+    //     openFancyBox();
+    // }
+    // $.cookie('visited', 'yes', {expires: 7});
+    // $('#feedback-box').fancybox();
 });
