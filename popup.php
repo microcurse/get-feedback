@@ -16,7 +16,7 @@ function feedback_popup() {
     wp_register_script( 'feedback_popup', plugins_url( '/popup/js/feedback_popup.js'), array( 'jquery' ) );
     wp_register_script( 'fancybox', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js' );
     
-    wp_enqueue_script( 'feedback_popup', 'fancybox' );
+    wp_enqueue_script( 'fancybox', 'feedback_popup' );
 }
     
 ?>
