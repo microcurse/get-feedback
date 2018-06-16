@@ -3,12 +3,13 @@ function openFancyBox() {
 }
 
 jQuery(document).ready(function($) {
-    var visited = $.cookie('visited');
-    if (visited == 'yes') {
-        return false;
-    } else {
-        openFancyBox();
-    }
-    $.cookie('visited', 'yes', {expires: 7});
-    $('#feedback-box').fancybox();
+    $.fancybox.open('<div class="message"><h2>Hello!</h2><p>You are awesome!</p></div>');
+    // var visited = $.cookie('visited');
+    // if (visited == 'yes') {
+    //     return false;
+    // } else {
+    //     openFancyBox();
+    // }
+    // $.cookie('visited', 'yes', {expires: 7});
+    // $('#feedback-box').fancybox();
 });
