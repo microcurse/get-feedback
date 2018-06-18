@@ -1,7 +1,7 @@
 // This is for delaying and displaying the pop up after a few seconds.
 function openFancyBox() {
     setTimeout( function() {
-        // Load pop up html
+        // Load fancybox html
         jQuery.fancybox.open({
             src     : 'https://harloff.staging.wpengine.com/wp-content/plugins/popup/fancybox.html',
             type    : 'ajax',
