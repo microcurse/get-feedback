@@ -4,7 +4,7 @@ function openFancyBox() {
         // Load pop up html
         jQuery.fancybox.open({
             src     : 'https://harloff.staging.wpengine.com/wp-content/plugins/popup/fancybox.html',
-            type    : 'iframe',
+            type    : 'ajax',
             opts    : {
                 afterShow : function( instance, current ) {
                     console.info( 'done!' );
@@ -15,6 +15,7 @@ function openFancyBox() {
 }
 
 jQuery(document).ready(function($) {
+
     // This checks whether or not the user has seen the pop up
     var visited = $.cookie('visited');
     if (visited == 'yes') {
@@ -23,5 +24,4 @@ jQuery(document).ready(function($) {
         openFancyBox();
     }
     $.cookie('visited', 'yes', {expires: 7});
-    $('#feedback').fancybox();
 });

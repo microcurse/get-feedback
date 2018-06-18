@@ -1,39 +1,31 @@
 <style>
-    .feedback-container{
-        position:absolute;
-        top:50%;
-        left:50%;
-        padding:15px;
-        border-top:5px solid #ff0000;
-        transform: translate(-50%, -50%) scale(0.930909) translateZ(0px);
-        max-width:512px;
+    #feedback {
+        max-width: 512px;
+        border-top: 7px solid #900028;
         text-align:center;
     }
-    button.btn{
-        padding:1em 6em;
-        box-shadow:none;
-        border:none;
+    a.btn{
+        padding: .6em 4em;
         border-radius: 3px;
+        margin: 0 10px;
+        color:#fff;
     }
-    button.btn:hover{
+    a.btn:hover{
         filter: brightness(85%);
         -webkit-filter: brightness(85%);
     }
     .primary-btn{
-        background-color:#ff0000;
+        background-color:#900028;
     }
     .no-btn{
         background-color:#777;
     }
 </style>
 <div id="feedback">
-    <div class="feedback-container">
-        <div class="feedback-inner">
-            <h2>Can you spare a few minutes?</h2>
-            <p>We would greatly appreciate it if you could take a couple minutes to fill out our feedback form. We'll use this info to make your experience here better!</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfR2bzZPcLsrKZXPxyBC-NgvfmCFu2sJpGr_yFP1Ya66a20pg/viewform?usp=sf_link" class="primary-btn btn" url="">I Sure Can!</a>
-            <a href="#" class="no-btn btn">No Way!</a>
-        </div>
+    <div class="feedback-inner">
+        <h2>Can you spare a few minutes?</h2>
+        <p>We would greatly appreciate it if you could take a couple minutes to fill out our feedback form. We'll use this info to make your experience here better!</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfR2bzZPcLsrKZXPxyBC-NgvfmCFu2sJpGr_yFP1Ya66a20pg/viewform?usp=sf_link" class="primary-btn btn" url="">I Sure Can!</a>
+        <a href="#" class="no-btn btn">No Way!</a>
     </div>
 </div>
-
