@@ -13,6 +13,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 function feedback_popup() {
     wp_enqueue_script( 'fancybox', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js', array( 'jquery' ), '3.3.5', true);
     wp_enqueue_script( 'feedback_popup', plugins_url( '/popup/js/feedback_popup.js'), array( 'fancybox', 'jquery' ), '1', true);
+    wp_enqueue_script( 'js_cookies', 'https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js', true );
     wp_enqueue_style( 'fancybox', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css', '3.3.5');
 }
 
