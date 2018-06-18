@@ -1,9 +1,9 @@
 <?php
 /**
- *  Plugin Name:    Get Feedback (Fancybox Popup) 
+ *  Plugin Name:    Get Feedback (Fancybox) 
  *  Plugin URI:     https://harloff.com
- *  Description:    This plugin is for displaying a modal pop up to get user feedback on the site. It uses jQuery and Fancybox to display the pop up and jscookie to track if a user has already seen this popup.
- *  Version:        1.0
+ *  Description:    This plugin displays a lightbox to get user feedback on your site. It uses jQuery and Fancybox to display the lightbox and JavaSCript Cookie to track if a user has already seen it.
+ *  Version:        0.1
  *  Author:         Marc Reyes-Maninang
  *  License:        GPL2
  *  License URI:    https://www.gnu.org/licenses/gpl-2.0.html
