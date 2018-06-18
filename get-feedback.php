@@ -1,7 +1,7 @@
 <?php
 /**
  *  Plugin Name:    Get Feedback (Fancybox) 
- *  Plugin URI:     https://harloff.com
+ *  Plugin URI:     https://github.com/microcurse/get-feedback
  *  Description:    This plugin displays a lightbox to get user feedback on your site. It uses jQuery and Fancybox to display the lightbox and JavaSCript Cookie to track if a user has already seen it.
  *  Version:        0.1
  *  Author:         Marc Reyes-Maninang
