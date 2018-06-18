@@ -1,5 +1,8 @@
+// This is for delaying and displaying the pop up after a few minutes.
 function openFancyBox() {
-    setTimeout( function() {$('#feedback-box').trigger('click'); }, 20000);
+    setTimeout( function() {
+        $('#feedback-box').trigger('click'); 
+    }, 20000);
 }
 
 jQuery(document).ready(function($) {
