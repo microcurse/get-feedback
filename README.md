@@ -1,5 +1,5 @@
 # get feedback
-A plugin to gather feedback from your users. Displays a <a href="http://fancyapps.com">fancybox</a> powered lightbox and uses <a href="https://github.com/js-cookie/js-cookie/tree/latest">JavaScript Cookie</a> to show this pop up to users only once every 7 days.
+A plugin to gather feedback from your users. Displays a <a href="https://fancyapps.com">fancybox</a> powered lightbox and uses <a href="https://github.com/js-cookie/js-cookie/tree/latest">JavaScript Cookie</a> to show this pop up to users only once every 7 days.
 
 ## Upcoming Features and Improvements
 - Admin area

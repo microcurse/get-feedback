@@ -3,9 +3,10 @@ function openFancyBox() {
     setTimeout( function() {
         // Load fancybox html
         jQuery.fancybox.open({
-            src     : 'https://harloff.staging.wpengine.com/wp-content/plugins/popup/fancybox.html',
+            src     : document.URL + 'wp-content/plugins/get-feedback/fancybox.html',
             type    : 'ajax',
             opts    : {
+                // This sends a 'done!' message to console when ajax is done loading 
                 afterShow : function( instance, current ) {
                     console.info( 'done!' );
                 }
